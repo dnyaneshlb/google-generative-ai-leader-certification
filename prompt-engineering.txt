@@ -1,0 +1,48 @@
+ReAct Prompting
+    This is prompt engineering technique where AI model uses reasonong loop of think-plan-act-onbserve until the solution is not achieved.
+    e.g. prompt : recommend me a good restaurant
+    AI thoughts : 1. Let me check the user's current location and find restaurants within 10km radius
+                  2. Let me filter by rating
+                  3. Let me pick the top dishes
+                  4. Here are some delicious dishes
+                  5. Oh but user likes italian food, let me find italian recommendations
+                  6. Let me search restaurants that serve italian food
+                  7. This pasta in restaurant1 looks yummy, this pizza in restaurant2 looks scrumptious.
+                  8. Curating. 2 recommendations and sending to user
+
+Chain of Thought Prompting
+    Its like making AI think like humans. Approaching problem step by step. Here, you guide AI to solve intricate problems one thing at a time and gradually
+    building context as we chat more with AI.
+    e.g. Building an ERP app for Oxymoon aqua.
+
+
+ Tool Calling
+    Tools is an external capability that an AI model can use to perform actions or access information beyond its built-in knowledge.
+    * AI model = the “brain” that understands and generates language.
+    * Tool = a “helper” that lets the AI do specific tasks.
+
+    “What’s the weather in Tokyo right now?”
+    A language model alone doesn’t know the current weather. It can use a weather tool to fetch live data and then explain it to you.
+
+    It can be anything.
+    A function, database, API, command line program, another model, google search, invoking an application etc.
+
+
+ What is function?
+    Its a tool.
+    Functions are like specialized tools within the agent's toolbox. Agent knows about it and can use it whenever it thinks that a particular
+    function needs to be used.
+    e.g. Coding agent has compiler function. It can decide to use it whenever it writes code and during reasoning process, it wants to verify the written code.
+
+
+ Can agent be a tool for another agent?
+    Yes.
+    A customer service agent can use sentiment analysis agent as tool to gauge user satisfaction during an interaction.
+
+
+What is meta prompting?
+    Using AI to create instructions for AI.
+    e.g. create instructions for AI agent that I will use for my customers to chat with. Here is my company details.
+    The AI will create detailed instructions to be fed to another AI.
+
+

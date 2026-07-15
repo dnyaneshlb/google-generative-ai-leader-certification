@@ -1,0 +1,28 @@
+Gemma: Lightweight, open models for local deployments and specialized AI applications
+
+Imagen: text to image generation
+
+Veo : video generation using text/image
+
+Gemini Enterprise
+
+Gemini for Google Workspace
+
+Gemini enterprise agent platform
+
+Gemini app vs gem?
+
+NotebookLM
+
+Google Cloud Contact Center as a Service
+
+Gemini Nano is Google's most efficient and compact
+AI model, specifically designed to run on devices.
+
+Model garden?
+
+Google AI Studio vs Vertex AI Studio
+    Google AI Studio is available free of charge and is meant for quick AI prototyping
+    Vertex AI Studio is for building and deploying production-ready AI applications at scale.
+
+Grounding with Google search
